@@ -7,7 +7,7 @@ namespace REC_93
         static void Main(string[] args)
         {
             Random Rand = new Random();
-            int Answer = Rand.Next(100);
+            int Answer = Rand.Next(101);
             int Count = 1;
             Console.WriteLine("За 10 попыток отгадайте число от 1 до 100");
             Console.Write($"Попытка № {Count}: ");
